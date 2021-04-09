@@ -20,9 +20,13 @@ const csvHeaders = {
 
 const parseCsvToDatabase = function(csvFile) {
     fs.createReadStream(csvFile)
-    .pipe(csvParser(Object.values(csvHeaders)))
+    .pipe(csvParser({
+        headers: Object.values(csvHeaders),
+        skipLines: 1
+      }))
     .on('data', (data) => Data.create(data))
     .on('end', () => console.log('finished'));
 }
 
 module.exports.parseCsvToDatabase = parseCsvToDatabase;
+
