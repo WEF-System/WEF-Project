@@ -3,22 +3,25 @@ chartGraph();
 async function chartGraph() {
     const data = await getDataDB();
     const ctx = document.getElementById('myChart').getContext('2d');
+    const chartData = {
+        labels: data.xs,
+        datasets: [{
+            label: 'Gas Temp',
+            data: data.ys,
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255, 99, 132, 1)',
+            borderWidth: 1
+        }]
+    }
     const chart = new Chart(ctx, {
         type: 'line',
-        data: {
-            labels: data.xs,
-            datasets: [{
-                label: 'Gas Temp',
-                data: data.ys,
-                backgroundColor: 'rgba(255, 99, 132, 0.2)',
-                borderColor: 'rgba(255, 99, 132, 1)',
-                borderWidth: 1
-            }]
-        },
+        data: chartData,
         options: {
             responsive: false
         }
     });
+
+    updateChartType(chart, ctx, chartData);
 }
 
 async function getDataCSV() {
@@ -51,4 +54,18 @@ async function getDataDB() {
     });
     
     return response;
+}
+
+function updateChartType(chart, ctx, chartData) {  
+    const chartType = document.getElementById("chartType");
+    chartType.addEventListener('change', function() {
+        chart.destroy();
+        chart = new Chart(ctx, {
+            type: document.getElementById("chartType").value,
+            data: chartData,
+            options: {
+                responsive: false
+            }
+        });
+    });
 }
