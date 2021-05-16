@@ -35,6 +35,21 @@ https://youtu.be/xFyEUBFhV00
 ### Database:
 * MongoDB
 
+### Libraries:
+* Chart.js
+* Litepicker
+* csvtojson
+* path.js
+
+### Templating:
+* EJS
+
+### Middleware:
+* Multer
+* express-session
+* passport.js
+* connect-flash
+
 ## Contributing
 
 
