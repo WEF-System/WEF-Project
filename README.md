@@ -27,7 +27,10 @@ https://youtu.be/xFyEUBFhV00
 * CSS
 * JavaScript
 * Node.js
+
+### Frameworks:
 * Express
+* Mongoose
 
 ### Database:
 * MongoDB
