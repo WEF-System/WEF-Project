@@ -20,17 +20,17 @@ https://youtu.be/xFyEUBFhV00
 ## Built With
 
 ### IDE: 
-Visual Studio Code
+*Visual Studio Code
 
 ### Tech Stack:
-HTML
-CSS
-JavaScript
-Node.js
-Express
+*HTML
+*CSS
+*JavaScript
+*Node.js
+*Express
 
 ### Database:
-MongoDB
+*MongoDB
 
 ## Contributing
 
