@@ -10,11 +10,9 @@ https://youtu.be/xFyEUBFhV00
 
 ## Documentation
 
+Documentation will soon be added to this project using JSDocs.
 
 ## Diagrams
-
-
-## Getting Started
 
 
 ## Built With
@@ -60,10 +58,3 @@ Ramzy El-Taher, Luis Hernandez, Cody Buckley
 ## License
 
 
-## Acknowledgments
-
-
-## History
-
-
-## Key Programming Concepts Utilized
