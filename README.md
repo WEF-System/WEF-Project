@@ -14,6 +14,9 @@ Documentation will soon be added to this project using JSDocs.
 
 ## Diagrams
 
+The following image is a diagram of the Water Energy Food System Components.
+
+![WEF System Components](/diagrams/WEF_System_Components.PNG)
 
 ## Built With
 
@@ -57,4 +60,4 @@ Ramzy El-Taher, Luis Hernandez, Cody Buckley
 
 ## License
 
-
+Public License will soon be added.
