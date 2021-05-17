@@ -20,7 +20,7 @@ The following image is a diagram of the Water Energy Food System Components for 
 
 Here is a diagram of the physical system with real-time sensors included.
 
-![WEF System With Real-Time Sensors](WEF_System_Diagram_With_Sensors.PNG)
+![WEF System With Real-Time Sensors](/diagrams/WEF_System_Diagram_With_Sensors.PNG)
 
 ## Built With
 
