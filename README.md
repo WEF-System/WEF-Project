@@ -14,7 +14,7 @@ Documentation will soon be added to this project using JSDocs.
 
 ## Diagrams
 
-The following image is a diagram of the Water Energy Food System Components.
+The following image is a diagram of the Water Energy Food System Components for the actual model of the physical system.
 
 ![WEF System Components](/diagrams/WEF_System_Components.PNG)
 
