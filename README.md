@@ -55,9 +55,6 @@ Here is a diagram of the physical system with real-time sensors included.
 * passport.js
 * connect-flash
 
-## Contributing
-
-
 ## Author
 
 Ramzy El-Taher, Luis Hernandez, Cody Buckley
