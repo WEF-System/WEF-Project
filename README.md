@@ -18,6 +18,10 @@ The following image is a diagram of the Water Energy Food System Components for 
 
 ![WEF System Components](/diagrams/WEF_System_Components.PNG)
 
+Here is a diagram of the physical system with real-time sensors included.
+
+![WEF System With Real-Time Sensors](WEF_System_Diagram_With_Sensors.PNG)
+
 ## Built With
 
 ### IDE: 
